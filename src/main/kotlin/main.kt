@@ -1,4 +1,5 @@
 import classes.Player
+import classes.Weapon
 import conditional.Conditional
 
 fun main(args: Array<String>) {
@@ -17,5 +18,7 @@ fun main(args: Array<String>) {
 
     println(naman.weapon.name)
     println(naman.weapon.damageInflicted)
+
+    val axe = Weapon("Axe",12);
 }
 
