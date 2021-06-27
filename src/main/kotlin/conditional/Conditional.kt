@@ -16,13 +16,12 @@ class Conditional {
         val age =  readLine()!!.toInt()
         println("Age is: $age")
 
-        val message : String
-        if(age < 18){
-            message = "You are too young"
+        val message : String = if(age < 18){
+            "You are too young"
         }else if (age == 100){
-            message = "Congratulations"
+            "Congratulations"
         }else {
-            message = "You can vote"
+            "You can vote"
         }
 
         println(message)
