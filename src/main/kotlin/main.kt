@@ -11,5 +11,8 @@ fun main(args: Array<String>) {
 //    println(naman.level)
 //    println(naman.score)
     naman.show()
+
+    val harshit = Player("Harshit",5,1,2)
+    harshit.show()
 }
 
