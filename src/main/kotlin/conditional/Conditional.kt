@@ -13,5 +13,6 @@ class Conditional {
 
     fun condition2(){
         println("Enter your age:")
+        val age =  readLine()!!.toInt()
     }
 }
