@@ -24,5 +24,7 @@ class Conditional {
         }else {
             message = "You can vote"
         }
+
+        println(message)
     }
 }
