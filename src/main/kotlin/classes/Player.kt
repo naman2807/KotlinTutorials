@@ -1,7 +1,6 @@
 package classes
 
-class Player(val name: String) {
-    var lives = 3
+class Player(val name: String, var lives: Int = 3) {
     var level = 1
     var score = 0
 
