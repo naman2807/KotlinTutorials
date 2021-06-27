@@ -2,7 +2,7 @@ package conditional
 
 class Conditional {
     fun condition(){
-        val lives = 3
+        val lives = 0
         val isAlive = lives < 1
 
         if(isAlive){
