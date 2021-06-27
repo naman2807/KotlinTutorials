@@ -6,9 +6,10 @@ fun main(args: Array<String>) {
 //    conditional.condition2()
 
     val naman = Player("Naman")
-    println(naman.name)
-    println(naman.lives)
-    println(naman.level)
-    println(naman.score)
+//    println(naman.name)
+//    println(naman.lives)
+//    println(naman.level)
+//    println(naman.score)
+    naman.show()
 }
 
