@@ -6,5 +6,6 @@ fun main(args: Array<String>) {
 //    conditional.condition2()
 
     val naman = Player("Naman")
+    println(naman.name)
 }
 
