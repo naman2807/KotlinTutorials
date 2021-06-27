@@ -7,20 +7,23 @@ fun main(args: Array<String>) {
 //    conditional.condition2()
 
     val naman = Player("Naman")
+    val harshit = Player("Harshit",5,1,2)
+
 //    println(naman.name)
 //    println(naman.lives)
 //    println(naman.level)
 //    println(naman.score)
+
     naman.show()
+//    harshit.show()
 
-    val harshit = Player("Harshit",5,1,2)
-    harshit.show()
+    harshit.weapon = naman.weapon
 
-    println(naman.weapon.name)
-    println(naman.weapon.damageInflicted)
-
-    val axe = Weapon("Axe",12)
-    naman.weapon = axe
-    println(naman.weapon.name)
+//    println(naman.weapon.name)
+//    println(naman.weapon.damageInflicted)
+//
+//    val axe = Weapon("Axe",12)
+//    naman.weapon = axe
+//    println(naman.weapon.name)
 }
 
