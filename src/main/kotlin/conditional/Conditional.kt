@@ -1,0 +1,4 @@
+package conditional
+
+class Conditional {
+}
