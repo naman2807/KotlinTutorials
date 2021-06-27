@@ -18,7 +18,7 @@ class Conditional {
 
         val message : String
         if(age < 18){
-
+            message = "You are too young"
         }
     }
 }
