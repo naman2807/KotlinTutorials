@@ -21,5 +21,6 @@ fun main(args: Array<String>) {
 
     val axe = Weapon("Axe",12)
     naman.weapon = axe
+    println(naman.weapon.name)
 }
 
