@@ -18,6 +18,7 @@ fun main(args: Array<String>) {
 //    harshit.show()
 
     harshit.weapon = naman.weapon
+    harshit.show()
 
 //    println(naman.weapon.name)
 //    println(naman.weapon.damageInflicted)
