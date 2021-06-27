@@ -8,5 +8,6 @@ fun main(args: Array<String>) {
     val naman = Player("Naman")
     println(naman.name)
     println(naman.lives)
+    println(naman.level)
 }
 
