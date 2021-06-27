@@ -12,6 +12,6 @@ class Conditional {
     }
 
     fun condition2(){
-
+        println("Enter your age:")
     }
 }
