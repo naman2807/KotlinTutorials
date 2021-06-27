@@ -16,5 +16,6 @@ fun main(args: Array<String>) {
     harshit.show()
 
     println(naman.weapon.name)
+    println(naman.weapon.damageInflicted)
 }
 
