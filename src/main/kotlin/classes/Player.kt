@@ -6,6 +6,11 @@ class Player(val name: String) {
     var score = 0
 
     fun show(){
-
+        println("""
+            Name: $name
+            Lives: $lives
+            Level: $level
+            Score: $score
+        """)
     }
 }
