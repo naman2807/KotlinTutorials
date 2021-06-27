@@ -8,5 +8,5 @@ Project Name: KotlinTutorials
 Date: 27-06-2021
  */
 
-class Weapon(val name: String, val damageInflicted: Int) {
+class Weapon(val name: String, var damageInflicted: Int) {
 }
