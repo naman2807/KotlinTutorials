@@ -9,5 +9,6 @@ fun main(args: Array<String>) {
     println(naman.name)
     println(naman.lives)
     println(naman.level)
+    println(naman.score)
 }
 
