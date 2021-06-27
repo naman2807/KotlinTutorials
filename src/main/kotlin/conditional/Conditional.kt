@@ -21,6 +21,8 @@ class Conditional {
             message = "You are too young"
         }else if (age == 100){
             message = "Congratulations"
+        }else {
+            message = "You can vote"
         }
     }
 }
