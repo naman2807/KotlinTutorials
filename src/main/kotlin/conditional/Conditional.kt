@@ -26,4 +26,8 @@ class Conditional {
 
         println(message)
     }
+
+    fun condition3(){
+
+    }
 }
