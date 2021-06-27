@@ -17,5 +17,8 @@ class Conditional {
         println("Age is: $age")
 
         val message : String
+        if(age < 18){
+
+        }
     }
 }
