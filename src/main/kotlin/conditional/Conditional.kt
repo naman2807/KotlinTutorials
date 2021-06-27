@@ -15,5 +15,7 @@ class Conditional {
         println("Enter your age:")
         val age =  readLine()!!.toInt()
         println("Age is: $age")
+
+        val message : String
     }
 }
