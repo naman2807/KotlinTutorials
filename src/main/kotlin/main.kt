@@ -19,6 +19,7 @@ fun main(args: Array<String>) {
     println(naman.weapon.name)
     println(naman.weapon.damageInflicted)
 
-    val axe = Weapon("Axe",12);
+    val axe = Weapon("Axe",12)
+    naman.weapon = axe
 }
 
