@@ -1,14 +1,17 @@
 package conditional
 
 class Conditional {
-    fun condition(){
+    fun condition1(){
         val lives = 0
         val isAlive = lives < 1
-
         if(isAlive){
             println("Game Over.")
         }else {
             println("You are still alive.")
         }
+    }
+
+    fun condition2(){
+
     }
 }
