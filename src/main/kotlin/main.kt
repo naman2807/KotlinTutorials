@@ -14,5 +14,7 @@ fun main(args: Array<String>) {
 
     val harshit = Player("Harshit",5,1,2)
     harshit.show()
+
+    println(naman.weapon.name)
 }
 
