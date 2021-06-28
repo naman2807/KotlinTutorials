@@ -1,6 +1,8 @@
 import classes.Player
 import classes.Weapon
 import conditional.Conditional
+import list.Loot
+import list.LootType
 
 fun main(args: Array<String>) {
 //    val conditional : Conditional = Conditional()
@@ -26,5 +28,7 @@ fun main(args: Array<String>) {
 //    val axe = Weapon("Axe",12)
 //    naman.weapon = axe
 //    println(naman.weapon.name)
+
+    val redPotion = Loot("Red Potion", LootType.POTION, 7.50)
 }
 
