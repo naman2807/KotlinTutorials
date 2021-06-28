@@ -17,6 +17,7 @@ class Loot(val name: String, val lootType: LootType, val value: Double) {
         return """
             Loot Name: $name
             Loot Type: ${lootType.name}
+            Value: $value
         """.trimIndent()
     }
 }
