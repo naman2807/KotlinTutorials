@@ -18,6 +18,10 @@ class Player(val name: String, var lives: Int = 3, var level: Int = 1, var score
         """.trimIndent())
     }
 
+    override fun toString(): String {
+        return super.toString()
+    }
+
     fun showInventory(){
         println("$name's inventory")
         println(inventory.get(0))
