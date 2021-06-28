@@ -9,4 +9,7 @@ Date: 27-06-2021
  */
 
 class Weapon(val name: String, var damageInflicted: Int) {
+    override fun toString(): String {
+        return super.toString()
+    }
 }
