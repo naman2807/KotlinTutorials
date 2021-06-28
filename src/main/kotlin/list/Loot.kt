@@ -13,4 +13,7 @@ enum class LootType{
 }
 
 class Loot(val name: String, val lootType: LootType, val value: Double) {
+    override fun toString(): String {
+        return super.toString()
+    }
 }
