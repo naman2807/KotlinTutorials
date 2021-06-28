@@ -8,14 +8,9 @@ class Player(val name: String, var lives: Int = 3, var level: Int = 1, var score
     val inventory = ArrayList<Loot>()
 
     fun show(){
-        println("""
-            Name: $name
-            Lives: $lives
-            Level: $level
-            Score: $score
-            Weapon Name: ${weapon.name}
-            Weapon Damage Inflicted: ${weapon.damageInflicted}
-        """.trimIndent())
+        if(lives > 0){
+
+        }
     }
 
     override fun toString(): String {
