@@ -9,7 +9,7 @@ Date: 28-06-2021
  */
 
 enum class LootType{
-
+    POTION
 }
 class Loot {
 }
