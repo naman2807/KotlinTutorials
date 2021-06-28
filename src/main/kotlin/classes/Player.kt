@@ -10,6 +10,8 @@ class Player(val name: String, var lives: Int = 3, var level: Int = 1, var score
     fun show(){
         if(lives > 0){
             println("$name is alive")
+        }else {
+            println("$name is dead")
         }
     }
 
