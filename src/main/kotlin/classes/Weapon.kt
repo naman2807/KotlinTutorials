@@ -12,6 +12,7 @@ class Weapon(val name: String, var damageInflicted: Int) {
     override fun toString(): String {
         return """
             Weapon Name: $name
+            Weapon Damage Inflicted: $damageInflicted
         """.trimIndent()
     }
 }
