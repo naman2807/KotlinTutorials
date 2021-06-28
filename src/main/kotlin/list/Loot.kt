@@ -8,5 +8,8 @@ Project Name: KotlinTutorials
 Date: 28-06-2021
  */
 
+enum class LootType{
+
+}
 class Loot {
 }
