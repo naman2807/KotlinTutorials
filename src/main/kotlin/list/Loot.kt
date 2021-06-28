@@ -16,6 +16,7 @@ class Loot(val name: String, val lootType: LootType, val value: Double) {
     override fun toString(): String {
         return """
             Loot Name: $name
+            Loot Type: ${lootType.name}
         """.trimIndent()
     }
 }
