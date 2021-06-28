@@ -11,5 +11,6 @@ Date: 28-06-2021
 enum class LootType{
     POTION, RING, ARMOR
 }
-class Loot {
+
+class Loot(val name: String) {
 }
