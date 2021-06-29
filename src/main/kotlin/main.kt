@@ -42,6 +42,8 @@ fun main(args: Array<String>) {
 
     if(naman.dropLoot(redPotion)){
         println(naman)
+    }else{
+        println("${redPotion.name} doesnot exist")
     }
 
 //    for (i in 1..10){
