@@ -30,7 +30,9 @@ class Player(val name: String, var lives: Int = 3, var level: Int = 1, var score
     }
 
     fun dropLoot(item: Loot) : Boolean{
-        return if (inventory.contains(item))
+        return if (inventory.contains(item)){
+            inventory.remove(item)
+        }
     }
 
     fun showInventory(){
