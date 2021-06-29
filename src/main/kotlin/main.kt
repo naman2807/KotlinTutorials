@@ -44,5 +44,6 @@ fun main(args: Array<String>) {
         println(i)
         println("$i squared to ${i*i}")
     }
+    println("*".repeat(100))
 }
 
