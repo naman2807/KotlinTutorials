@@ -54,6 +54,8 @@ fun main(args: Array<String>) {
     for (i in 10 downTo 0){
         println(i)
     }
+
+    println("*".repeat(100))
 }
 
 
