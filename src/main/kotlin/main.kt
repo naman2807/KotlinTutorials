@@ -37,6 +37,7 @@ fun main(args: Array<String>) {
 
     naman.inventory.add(Loot("Ring of Protection +2", LootType.RING,52.0))
     naman.inventory.add(Loot("Invisibilty Potion", LootType.POTION, 21.0))
+    naman.showInventory()
     println(naman)
 }
 
