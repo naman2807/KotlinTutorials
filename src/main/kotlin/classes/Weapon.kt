@@ -13,6 +13,6 @@ class Weapon(val name: String, var damageInflicted: Int) {
         return """
             Weapon Name: $name
             Weapon Damage Inflicted: $damageInflicted
-        """.trimIndent()
+        """
     }
 }

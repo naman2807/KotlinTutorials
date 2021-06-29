@@ -30,6 +30,7 @@ fun main(args: Array<String>) {
 //    println(naman.weapon.name)
 
     val redPotion = Loot("Red Potion", LootType.POTION, 7.50)
+    val chestArmor = Loot("+3 Chest Armor", LootType.ARMOR, 80.0)
     naman.inventory.add(redPotion)
     naman.showInventory()
 
