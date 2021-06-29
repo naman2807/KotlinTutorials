@@ -35,6 +35,7 @@ fun main(args: Array<String>) {
     naman.inventory.add(chestArmor)
     naman.showInventory()
 
+    naman.inventory.add(Loot("Ring of Protection +2", LootType.RING,52.0))
     println(naman)
 }
 
