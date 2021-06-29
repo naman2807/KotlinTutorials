@@ -41,7 +41,7 @@ fun main(args: Array<String>) {
 //    println(naman)
 
     for (i in 1..10){
-
+        println(i)
     }
 }
 
