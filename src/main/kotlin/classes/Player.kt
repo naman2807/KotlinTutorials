@@ -27,6 +27,9 @@ class Player(val name: String, var lives: Int = 3, var level: Int = 1, var score
 
     fun showInventory(){
         println("$name's inventory")
+        for(item in inventory){
+
+        }
         println(inventory.get(0))
         println("=".repeat(20))
     }
