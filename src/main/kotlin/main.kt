@@ -60,6 +60,7 @@ fun main(args: Array<String>) {
         println(i)
     }
 
+    println("*".repeat(100))
     //CHALLENGE
     for (i in 1..100){
         if(i % 3 ==0 && i % 5 == 0){
