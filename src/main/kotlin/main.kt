@@ -31,12 +31,12 @@ fun main(args: Array<String>) {
 
     val redPotion = Loot("Red Potion", LootType.POTION, 7.50)
     val chestArmor = Loot("+3 Chest Armor", LootType.ARMOR, 80.0)
-    naman.inventory.add(redPotion)
-    naman.inventory.add(chestArmor)
+    naman.getLoot(redPotion)
+    naman.getLoot(chestArmor)
     naman.showInventory()
 
-    naman.inventory.add(Loot("Ring of Protection +2", LootType.RING,52.0))
-    naman.inventory.add(Loot("Invisibilty Potion", LootType.POTION, 21.0))
+    naman.getLoot(Loot("Ring of Protection +2", LootType.RING,52.0))
+    naman.getLoot(Loot("Invisibilty Potion", LootType.POTION, 21.0))
     naman.showInventory()
     println(naman)
 
