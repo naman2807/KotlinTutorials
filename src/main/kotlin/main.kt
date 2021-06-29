@@ -40,6 +40,10 @@ fun main(args: Array<String>) {
     naman.showInventory()
     println(naman)
 
+    if(naman.dropLoot(redPotion)){
+
+    }
+
 //    for (i in 1..10){
 //        println(i)
 //        println("$i squared to ${i*i}")
