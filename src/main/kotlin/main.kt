@@ -57,7 +57,7 @@ fun main(args: Array<String>) {
 
     println("*".repeat(100))
     for (i in 10 downTo 0 step 2){
-
+        println(i)
     }
 }
 
