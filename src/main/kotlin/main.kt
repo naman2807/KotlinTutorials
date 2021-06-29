@@ -44,9 +44,30 @@ fun main(args: Array<String>) {
         println(i)
         println("$i squared to ${i*i}")
     }
+
     println("*".repeat(100))
     for(i in 1 until 10){
-
+        println(i)
     }
+
+    println("*".repeat(100))
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
