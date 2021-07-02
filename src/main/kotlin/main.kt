@@ -48,6 +48,8 @@ fun main(args: Array<String>) {
 
     if(naman.dropLoot("Invisibility Potion")){
         naman.showInventory()
+    }else{
+        println("Naman does not have Invisibility Potion")
     }
 
 //    for (i in 1..10){
