@@ -46,6 +46,8 @@ fun main(args: Array<String>) {
         println("${redPotion.name} doesnot exist")
     }
 
+    naman.dropLoot("Invisibility Potion")
+
 //    for (i in 1..10){
 //        println(i)
 //        println("$i squared to ${i*i}")
