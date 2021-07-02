@@ -46,7 +46,9 @@ fun main(args: Array<String>) {
         println("${redPotion.name} doesnot exist")
     }
 
-    naman.dropLoot("Invisibility Potion")
+    if(naman.dropLoot("Invisibility Potion")){
+
+    }
 
 //    for (i in 1..10){
 //        println(i)
