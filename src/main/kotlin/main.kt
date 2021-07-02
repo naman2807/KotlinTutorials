@@ -47,7 +47,7 @@ fun main(args: Array<String>) {
     }
 
     if(naman.dropLoot("Invisibility Potion")){
-
+        naman.showInventory()
     }
 
 //    for (i in 1..10){
