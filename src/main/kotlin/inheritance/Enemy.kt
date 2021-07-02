@@ -14,6 +14,8 @@ open class Enemy(val name: String, var hitPoints: Int, var lives: Int) {
         if(remainingPoints > 0){
             hitPoints = remainingPoints
             println("$name took $damage points of damage, and has $hitPoints left.")
+        }else{
+            lives -= 1
         }
     }
 }
