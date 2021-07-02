@@ -12,7 +12,7 @@ open class Enemy(val name: String, var hitPoints: Int, var lives: Int) {
     fun takeDamage(damage: Int){
         val remainingPoints = hitPoints - damage
         if(remainingPoints > 0){
-
+            hitPoints = remainingPoints
         }
     }
 }
