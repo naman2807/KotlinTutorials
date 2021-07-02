@@ -13,6 +13,7 @@ open class Enemy(val name: String, var hitPoints: Int, var lives: Int) {
         val remainingPoints = hitPoints - damage
         if(remainingPoints > 0){
             hitPoints = remainingPoints
+            println("$name took $damage points of damage, and has $hitPoints left.")
         }
     }
 }
