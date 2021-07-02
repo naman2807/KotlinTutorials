@@ -43,7 +43,7 @@ fun main(args: Array<String>) {
     if(naman.dropLoot(redPotion)){
         println(naman)
     }else{
-        println("${redPotion.name} doesnot exist")
+        println("${redPotion.name} doesn't exist")
     }
 
     if(naman.dropLoot("Invisibility Potion")){
