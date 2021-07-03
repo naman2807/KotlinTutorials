@@ -8,5 +8,5 @@ Project Name: KotlinTutorials
 Date: 03-07-2021
  */
 
-class Vampire(name: String) {
+class Vampire(name: String): Enemy(name, 20,5) {
 }
