@@ -15,4 +15,5 @@ fun main(args: Array<String>){
     println(enemy)
 
     enemy.takeDamage(11)
+    println(enemy)
 }
