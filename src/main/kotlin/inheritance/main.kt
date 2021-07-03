@@ -23,4 +23,5 @@ fun main(args: Array<String>){
     println(uglyTroll)
 
     val vampire = Vampire("Vampire")
+    println(vampire)
 }
