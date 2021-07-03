@@ -20,4 +20,5 @@ fun main(args: Array<String>){
     val uglyTroll = Troll("Troll", 20,10)
     println(uglyTroll)
     uglyTroll.takeDamage(10)
+    println(uglyTroll)
 }
