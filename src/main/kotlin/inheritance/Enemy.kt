@@ -21,6 +21,6 @@ open class Enemy(val name: String, var hitPoints: Int, var lives: Int) {
     }
 
     override fun toString(): String {
-        return super.toString()
+        return "Name: $name, Hit Points: $hitPoints, Lives: $lives"
     }
 }
