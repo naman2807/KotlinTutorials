@@ -18,4 +18,5 @@ fun main(args: Array<String>){
     println(enemy)
 
     val uglyTroll = Troll("Troll", 20,10)
+    println(uglyTroll)
 }
