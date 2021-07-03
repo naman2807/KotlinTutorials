@@ -16,4 +16,6 @@ fun main(args: Array<String>){
 
     enemy.takeDamage(11)
     println(enemy)
+
+    val uglyTroll = Troll("Troll", 20,10)
 }
