@@ -8,5 +8,8 @@ Project Name: KotlinTutorials
 Date: 03-07-2021
  */
 
-class VampireKing(name: String, hitPoints: Int = 20): Enemy(name, hitPoints, 5) {
+class VampireKing(name: String, hitPoints: Int = 20): Enemy(name, hitPoints, 5){
+    override fun takeDamage(damage: Int) {
+        super.takeDamage(damage / 2)
+    }
 }
