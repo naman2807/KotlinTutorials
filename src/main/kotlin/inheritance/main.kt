@@ -8,5 +8,5 @@ Project Name: KotlinTutorials
 Date: 03-07-2021
  */
 fun main(args: Array<String>){
-
+    val enemy = Enemy("Naman",20,5)
 }
