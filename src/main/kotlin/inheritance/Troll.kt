@@ -8,5 +8,5 @@ Project Name: KotlinTutorials
 Date: 03-07-2021
  */
 
-class Troll {
+class Troll(name: String) {
 }
