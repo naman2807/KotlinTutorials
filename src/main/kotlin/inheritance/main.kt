@@ -13,4 +13,6 @@ fun main(args: Array<String>){
 
     enemy.takeDamage(10)
     println(enemy)
+
+    enemy.takeDamage(11)
 }
