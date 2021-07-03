@@ -29,4 +29,5 @@ fun main(args: Array<String>){
 
     val vampireKing = VampireKing("Vampire King", 2)
     println(vampireKing)
+    vampireKing.takeDamage(8)
 }
