@@ -19,4 +19,8 @@ open class Enemy(val name: String, var hitPoints: Int, var lives: Int) {
             println("$name lost a life")
         }
     }
+
+    override fun toString(): String {
+        return super.toString()
+    }
 }
