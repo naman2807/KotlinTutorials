@@ -26,4 +26,6 @@ fun main(args: Array<String>){
     println(vampire)
     vampire.takeDamage(11)
     println(vampire)
+
+    val vampireKing = VampireKing("Vampire King", 2)
 }
